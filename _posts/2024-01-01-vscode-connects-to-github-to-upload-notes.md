@@ -6,11 +6,9 @@ categories: [七零八落的折腾, Jekyll]
 tags: [jekyll, chirpy, vscode, github]
 pin: false
 image:
-  path: /images/2024-01-01-vscode-connects-to-github-to-upload-notes/0001.png
+  path: /images/2024-01-01-vscode-connects-to-github-to-upload-notes/0000-2.png
 typora-root-url: ./
 ---
-
-![0001](/images/2024-01-01-vscode-connects-to-github-to-upload-notes/0001.png)
 
 ## 软件安装
 
