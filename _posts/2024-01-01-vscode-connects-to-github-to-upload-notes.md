@@ -18,7 +18,7 @@ typora-root-url: ./
 
 2. 安装 VsCode
 
-    > VsCode 下载地址：[Visual Studio Code - Code Editing. Redefined](https://code.visualstudio.com/)
+    > VsCode 下载地址：[VSCode下载与安装使用教程【超详细讲解】-CSDN博客](https://blog.csdn.net/m0_67906358/article/details/129302022)
 
 ## Git 设置
 
