@@ -14,11 +14,11 @@ typora-root-url: ./
 
 1. 安装 Git
 
-    > Git具体安装方法见：[Git的下载安装-CSDN博客](https://blog.csdn.net/2301_80864686/article/details/134207618?spm=1001.2014.3001.5501)
+    > Git 下载及安装方法见：[Git的下载安装-CSDN博客](https://blog.csdn.net/2301_80864686/article/details/134207618?spm=1001.2014.3001.5501)
 
 2. 安装 VsCode
 
-    > VsCode 下载地址：[VSCode下载与安装使用教程【超详细讲解】-CSDN博客](https://blog.csdn.net/m0_67906358/article/details/129302022)
+    > VsCode 下载及安装方法见：[VSCode下载与安装使用教程【超详细讲解】-CSDN博客](https://blog.csdn.net/m0_67906358/article/details/129302022)
 
 ## Git 设置
 
