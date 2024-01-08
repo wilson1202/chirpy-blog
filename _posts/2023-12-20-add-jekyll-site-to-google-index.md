@@ -2,12 +2,11 @@
 title: Jekyll站点添加至谷歌收录
 author: yongren
 date: 2023-12-20 09:02:12 +0800
-categories: [七零八落的折腾, Jekyll]
+categories: [七零八落的爱好, Jekyll]
 tags: [jekyll, chirpy, google, scarch, console, verification, site, map, analytics, id]
 pin: false
 image:
-  path: /images/2023-12-20-add-jekyll-site-to-google-index/202312201042874.png
-typora-root-url: ./
+  path: images/2023-12-20-add-jekyll-site-to-google-index/202312201042874.png
 ---
 
 Jekyll搭建完毕，并不意味着可以通过Google或百度在互联网搜索到我们的文章，需要手动提交索引设置，本文记录添加谷歌收录的步骤。
@@ -26,13 +25,13 @@ Jekyll搭建完毕，并不意味着可以通过Google或百度在互联网搜�
 
 2. 选择资源类型
 
-    ![image-20231220001504675](/images/2023-12-20-add-jekyll-site-to-google-index/202312200015792.png)
+    ![image-20231220001504675](images/2023-12-20-add-jekyll-site-to-google-index/202312200015792.png)
 
     > GitHub Pages 部署选择网址前缀方式，填写地址 `https://username.github.io`	
 
 3. 获取 google_site_verification 码
 
-    ![image-20231220000944532](/images/2023-12-20-add-jekyll-site-to-google-index/202312200009659.png)
+    ![image-20231220000944532](images/2023-12-20-add-jekyll-site-to-google-index/202312200009659.png)
 
     ```
     <meta name="google-site-verification" content="glthvg..........nJjY" />
@@ -42,11 +41,11 @@ Jekyll搭建完毕，并不意味着可以通过Google或百度在互联网搜�
 
 4. Jekyll 配置文件 _config 添加 google_site_verification 参数
 
-    ![image-20231220100954385](/images/2023-12-20-add-jekyll-site-to-google-index/202312201009420.png)
+    ![image-20231220100954385](images/2023-12-20-add-jekyll-site-to-google-index/202312201009420.png)
 
 5. 验证 google_site_verification 参数
 
-    ![google-verification-succeed](/images/2023-12-20-add-jekyll-site-to-google-index/202312200011368.png)
+    ![google-verification-succeed](images/2023-12-20-add-jekyll-site-to-google-index/202312200011368.png)
 
 6. 添加站点地图
 
@@ -56,19 +55,19 @@ Jekyll搭建完毕，并不意味着可以通过Google或百度在互联网搜�
 
       [XML Sitemaps](https://www.xml-sitemaps.com/)
 
-      ![image-20231220002839493](/images/2023-12-20-add-jekyll-site-to-google-index/202312200028560.png)
+      ![image-20231220002839493](images/2023-12-20-add-jekyll-site-to-google-index/202312200028560.png)
 
     - 下载 XML 文件放到 GitHub 库根目录
 
-      ![image-20231220003859877](/images/2023-12-20-add-jekyll-site-to-google-index/202312200038963.png)
+      ![image-20231220003859877](images/2023-12-20-add-jekyll-site-to-google-index/202312200038963.png)
 
     - 控制台添加站点地图
 
-      ![image-20231220004553394](/images/2023-12-20-add-jekyll-site-to-google-index/202312200045476.png)
+      ![image-20231220004553394](images/2023-12-20-add-jekyll-site-to-google-index/202312200045476.png)
 
     - 收录检测
 
-      ![image-20231220014413043](/images/2023-12-20-add-jekyll-site-to-google-index/202312200144159.png)
+      ![image-20231220014413043](images/2023-12-20-add-jekyll-site-to-google-index/202312200144159.png)
       
       > 谷歌自动收录需要等8-24小时左右，也可以在网址检查页面做手动提交
     
@@ -83,39 +82,39 @@ Google Analytics（分析）可以为用户提供更详细的站点访问统计�
 
 2. 注册过程
 
-    ![Snipaste_2023-12-19_19-12-11](/images/2023-12-20-add-jekyll-site-to-google-index/202312200916651.png)
+    ![Snipaste_2023-12-19_19-12-11](images/2023-12-20-add-jekyll-site-to-google-index/202312200916651.png)
 
-    ![Snipaste_2023-12-19_19-13-00](/images/2023-12-20-add-jekyll-site-to-google-index/202312200917555.png)
+    ![Snipaste_2023-12-19_19-13-00](images/2023-12-20-add-jekyll-site-to-google-index/202312200917555.png)
 
-    ![Snipaste_2023-12-19_19-13-19](/images/2023-12-20-add-jekyll-site-to-google-index/202312200918678.png)
+    ![Snipaste_2023-12-19_19-13-19](images/2023-12-20-add-jekyll-site-to-google-index/202312200918678.png)
 
-    ![Snipaste_2023-12-19_19-14-10](/images/2023-12-20-add-jekyll-site-to-google-index/202312200918926.png)
+    ![Snipaste_2023-12-19_19-14-10](images/2023-12-20-add-jekyll-site-to-google-index/202312200918926.png)
 
-    ![Snipaste_2023-12-19_19-14-24](/images/2023-12-20-add-jekyll-site-to-google-index/202312200919898.png)
+    ![Snipaste_2023-12-19_19-14-24](images/2023-12-20-add-jekyll-site-to-google-index/202312200919898.png)
 
-    ![Snipaste_2023-12-19_19-14-41](/images/2023-12-20-add-jekyll-site-to-google-index/202312200919867.png)
+    ![Snipaste_2023-12-19_19-14-41](images/2023-12-20-add-jekyll-site-to-google-index/202312200919867.png)
 
-    ![Snipaste_2023-12-19_19-18-04](/images/2023-12-20-add-jekyll-site-to-google-index/202312200919087.png)
+    ![Snipaste_2023-12-19_19-18-04](images/2023-12-20-add-jekyll-site-to-google-index/202312200919087.png)
 
-    ![Snipaste_2023-12-19_19-20-11](/images/2023-12-20-add-jekyll-site-to-google-index/202312200920439.png)
+    ![Snipaste_2023-12-19_19-20-11](images/2023-12-20-add-jekyll-site-to-google-index/202312200920439.png)
 
-    ![image-20231220093237314](/images/2023-12-20-add-jekyll-site-to-google-index/202312200932445.png)
+    ![image-20231220093237314](images/2023-12-20-add-jekyll-site-to-google-index/202312200932445.png)
 
 3. Jekyll 配置文件 _config 添加 Google Analytics ID，并测试验证
 
-    ![image-20231220101134681](/images/2023-12-20-add-jekyll-site-to-google-index/202312201011705.png)
+    ![image-20231220101134681](images/2023-12-20-add-jekyll-site-to-google-index/202312201011705.png)
     
-    ![image-20231220092416570](/images/2023-12-20-add-jekyll-site-to-google-index/202312200924700.png)
+    ![image-20231220092416570](images/2023-12-20-add-jekyll-site-to-google-index/202312200924700.png)
 
 4. 完成数据收集
 
-    ![Snipaste_2023-12-20_09-00-34](/images/2023-12-20-add-jekyll-site-to-google-index/202312200935229.png)
+    ![Snipaste_2023-12-20_09-00-34](images/2023-12-20-add-jekyll-site-to-google-index/202312200935229.png)
 
     > 数据收集的过程大概要8-24小时左右
 
 5. 查看流量分析数据
 
-    ![image-20231220093930271](/images/2023-12-20-add-jekyll-site-to-google-index/202312200939410.png)
+    ![image-20231220093930271](images/2023-12-20-add-jekyll-site-to-google-index/202312200939410.png)
 
 
 ## 参考文档

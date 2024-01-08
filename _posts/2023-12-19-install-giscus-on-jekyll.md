@@ -2,12 +2,11 @@
 title: Jekyll添加giscus评论系统
 author: yongren
 date: 2023-12-19 15:46:10 +0800
-categories: [七零八落的折腾, Jekyll]
+categories: [七零八落的爱好, Jekyll]
 tags: [jekyll, giscus, chirpy]
 pin: false
 image:
-  path: /images/2023-12-19-install-giscus-on-jekyll/202312191550055.png
-typora-root-url: ./
+  path: images/2023-12-19-install-giscus-on-jekyll/202312191550055.png
 ---
 
 ## 准备仓库
@@ -20,15 +19,15 @@ typora-root-url: ./
 1. 安装 giscus 
 
     [GitHub Apps - giscus](https://github.com/apps/giscus)
-    ![image-20231219160516842](/images/2023-12-19-install-giscus-on-jekyll/202312191605888.png)
+    ![image-20231219160516842](images/2023-12-19-install-giscus-on-jekyll/202312191605888.png)
 
 2. 选择仓库
 
-    ![image-20231219173549559](/images/2023-12-19-install-giscus-on-jekyll/202312191735600.png)
+    ![image-20231219173549559](images/2023-12-19-install-giscus-on-jekyll/202312191735600.png)
 
 3. 开启 Discussion
 
-    ![image-20231219161153383](/images/2023-12-19-install-giscus-on-jekyll/202312191611411.png)
+    ![image-20231219161153383](images/2023-12-19-install-giscus-on-jekyll/202312191611411.png)
 
     > 路径： `Setings` - `General` - `Features` - `Discussions `
 
@@ -87,7 +86,7 @@ typora-root-url: ./
 
 7. 效果展示
 
-    ![image-20231219163018886](/images/2023-12-19-install-giscus-on-jekyll/202312191630929.png)
+    ![image-20231219163018886](images/2023-12-19-install-giscus-on-jekyll/202312191630929.png)
 
 ## 参考文档
 

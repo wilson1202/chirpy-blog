@@ -2,12 +2,11 @@
 title: WSL2环境下Ubuntu安装Jekyll
 author: yongren
 date: 2023-12-14 22:00:10 +0800
-categories: [七零八落的折腾, Jekyll]
+categories: [七零八落的爱好, Jekyll]
 tags: [jekyll, ruby, rvm, gems, npm, bundler, wsl2, ubuntu]
 pin: false
 image:
-  path: /images/2023-12-14-install-jekyll-on-wsl2-ubuntu/202312171107359.png
-typora-root-url: ./
+  path: images/2023-12-14-install-jekyll-on-wsl2-ubuntu/202312171107359.png
 ---
 
 ## 安装依赖
@@ -89,7 +88,7 @@ typora-root-url: ./
 
 3. GitHub Pages设置
 
-    ![202312191219877](/images/2023-12-14-install-jekyll-on-wsl2-ubuntu/202312191219877.png)
+    ![202312191219877](images/2023-12-14-install-jekyll-on-wsl2-ubuntu/202312191219877.png)
 
     > 设置路径：`Setings`-`Pages`-`Build and deployment`-`Source`-`GitHub Actions`
     >
