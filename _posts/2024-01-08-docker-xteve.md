@@ -11,17 +11,19 @@ image:
 
 ## 部署简介
 
-1. 部署
+1. 部署项目
 2. 添加 iptv 组播文件
 3. 设置 xteve
 4. 设置 ffmpeg 解码
 5. 设置 Plex 电视直播
 
-## 部署
+## 部署项目
 
-1. Docker Hub 项目地址：[alturismo/xteve - Docker Image](https://hub.docker.com/r/alturismo/xteve)
+1. 部署环境：ESXi-8.0，Ubuntu-18.04
 
-2. docker-compose.yml 部署
+2. Docker Hub 项目地址：[alturismo/xteve - Docker Image](https://hub.docker.com/r/alturismo/xteve)
+
+3. docker-compose.yml 部署
 
     ```yaml
     version: '3.3'
@@ -63,7 +65,7 @@ image:
 
 3. 添加直播/组播文件 `CMCC-IPTV.m3u`
 
-    > 路径：/config/CMCC-IPTV.m3u
+    > 路径：`/config/CMCC-IPTV.m3u`
 
 4. 添加节目表地址
 
@@ -110,10 +112,11 @@ image:
 
     ![image-20240108175939666](images/2024-01-08-docker-xteve/image-20240108175939666.png)
 
-    > 需要修改三处配置
+    > 需要修改三处配置（画面播放正常，FFmpeg Options 参数可不调整）
     >
     > - Stream Buffer：`FFmpeg: (FFmpeg connects to the streaming server)`
     > - FFmpeg Binary Path：`/usr/bin/ffmpeg`
+    > - FFmpeg Binary Path（群晖7.0）：`/var/packages/ffmpeg6/target/bin/ffmpeg`
     > - FFmpeg Options：`-hide_banner -i [URL] -c:a libmp3lame -vcodec copy -f mpegts pipe:1`
 
 ## 设置 Plex 电视直播
@@ -153,3 +156,5 @@ image:
 [如何在 Plex 内收看 IPTV 直播电视？ - 哔哩哔哩 (bilibili.com)](https://www.bilibili.com/read/cv22239319/)
 
 [ffmpeg Documentation](https://ffmpeg.org/ffmpeg.html)
+
+[FFmpeg](https://trac.ffmpeg.org/#Encoding)
