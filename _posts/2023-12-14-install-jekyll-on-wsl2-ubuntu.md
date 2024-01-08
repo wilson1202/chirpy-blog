@@ -2,7 +2,7 @@
 title: WSL2环境下Ubuntu安装Jekyll
 author: yongren
 date: 2023-12-14 22:00:10 +0800
-categories: [七零八落的爱好, Jekyll]
+categories: [七零八落的折腾, Jekyll]
 tags: [jekyll, ruby, rvm, gems, npm, bundler, wsl2, ubuntu]
 pin: false
 image:

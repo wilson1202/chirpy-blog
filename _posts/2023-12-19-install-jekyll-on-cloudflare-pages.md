@@ -2,7 +2,7 @@
 title: Cloudflare Pages部署Jekyll
 author: yongren
 date: 2023-12-19 12:32:54 +0800
-categories: [七零八落的爱好, Jekyll]
+categories: [七零八落的折腾, Jekyll]
 tags: [jekyll, cloudflare, pages]
 pin: false
 image:

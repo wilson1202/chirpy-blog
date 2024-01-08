@@ -2,7 +2,7 @@
 title: WSL2环境下Ubuntu部署Hexo博客
 author: yongren
 date: 2023-12-16 14:05:50 +0800
-categories: [七零八落的爱好, Hexo]
+categories: [七零八落的折腾, Hexo]
 tags: [hexo, nvm, npm, node, wsl2, ubuntu]
 pin: false
 image:
