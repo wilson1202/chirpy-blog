@@ -2,14 +2,14 @@
 title: WSL2环境下Ubuntu安装RVM和Ruby
 author: yongren
 date: 2023-12-19 02:02:01 +0800
-categories: [七零八落的折腾, Jekyll]
+categories: [七零八落的爱好, Jekyll]
 tags: [jekyll, rvm, ruby, wsl2, ubuntu]
 pin: false
 image:
-  path: images/2023-12-19-install-rvm-ruby-on-ubuntu/202312190221968.png
+  path: images/2023-12-19-install-rvm-ruby-on-ubuntu/ubuntu-rvm.png
 ---
 
-## wsl2安装RVM
+## wsl2 安装 RVM
 
 在Ubuntu中执行上述操作的具体步骤如下：
 
