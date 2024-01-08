@@ -6,7 +6,7 @@ categories: [七零八落的折腾, Hexo]
 tags: [hexo, nvm, npm, node, wsl2, ubuntu]
 pin: false
 image:
-  path: images/2023-12-16-install-hexo-on-wsl2-ubuntu/202312171111513.png
+  path: images/2023-12-16-install-hexo-on-wsl2-ubuntu/ubuntu-hexo.png
 ---
 
 > 转载：[博客1:wsl2上配置hexo博客-CSDN博客](https://blog.csdn.net/iamtheplayer/article/details/128317770)
