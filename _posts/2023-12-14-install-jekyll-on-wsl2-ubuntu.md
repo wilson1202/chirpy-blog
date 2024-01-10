@@ -6,7 +6,7 @@ categories: [七零八落的折腾, Jekyll]
 tags: [jekyll, ruby, rvm, gems, npm, bundler, wsl2, ubuntu]
 pin: false
 image:
-  path: images/2023-12-14-install-jekyll-on-wsl2-ubuntu/202312171107359.png
+  path: images/2023-12-14-install-jekyll-on-wsl2-ubuntu/ubuntu-jekyll.png
 ---
 
 ## 安装依赖
