@@ -70,7 +70,7 @@ image:
 
     > 修改文件使用 `nano` 或 `vim` 命令
     >
-    > [anliyunpan] 是 rclone 配置文件中的 `name` ，也是下步项目部署时的<云端名称>，截图为 anliyun，是安装测试中修改导致，实际两处保持一致
+    > [anliyun] 是 rclone 配置文件中的 `name` ，也是下步项目部署时的 `<云端名称>` ，实际两处保持一致即可
 
 6. 部署 rclone 项目
 
@@ -97,7 +97,7 @@ image:
 
     > Docker Hub 项目地址：[rclone/rclone](https://hub.docker.com/r/rclone/rclone)
     >
-    > `mount aliyun:IIVA /data`：mount <云端名称>:<实际云端目录> /<容器目录>
+    > `mount aliyun:IIVA /data`：mount `<云端名称>`:`<实际云端目录>` /`<容器目录>`
     >
     > `- /root/.config/rclone`：rclone config 配置文件目录
     >
@@ -146,7 +146,7 @@ image:
     >
     > `- /volume1/docker/rclonebrowser-aliyunpan/config`：配置文件存放地址，配置后会自动生成
     >
-    > `- /volume2/video/aliyunpan:/media`：- <本地挂载目录 >:/<容器目录>
+    > `- /volume2/video/aliyunpan:/media`：- `<本地挂载目录 >`:/`<容器目录>`
     >
     > `- VNC_PASSWORD`：浏览器访问密码
     >
