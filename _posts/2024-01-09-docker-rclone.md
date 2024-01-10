@@ -69,6 +69,8 @@ image:
     ![image-20240109230621143](images/2024-01-09-docker-rclone/image-20240109230621143.png)
 
     > 修改文件使用 `nano` 或 `vim` 命令
+    >
+    > [anliyunpan] 为后面项目部署时的<云端名称>，截图为 anliyun，是安装测试中修改导致，该处要和容器中的名称保持一致
 
 6. 部署 rclone 项目
 
@@ -95,7 +97,7 @@ image:
 
     > Docker Hub 项目地址：[rclone/rclone](https://hub.docker.com/r/rclone/rclone)
     >
-    > `mount aliyun:IIVA /data`：mount <rclone配置的云端名称>:<实际云端目录> /<容器目录>
+    > `mount aliyun:IIVA /data`：mount <云端名称>:<实际云端目录> /<容器目录>
     >
     > `- /root/.config/rclone`：rclone config 配置文件目录
     >
