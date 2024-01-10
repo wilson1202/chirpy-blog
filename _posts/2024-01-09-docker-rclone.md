@@ -70,7 +70,7 @@ image:
 
     > 修改文件使用 `nano` 或 `vim` 命令
     >
-    > [anliyunpan] 为后面项目部署时的<云端名称>，截图为 anliyun，是安装测试中修改导致，该处要和容器中的名称保持一致
+    > [anliyunpan] 是 rclone 配置文件中的 `name` ，也是下步项目部署时的<云端名称>，截图为 anliyun，是安装测试中修改导致，实际两处保持一致
 
 6. 部署 rclone 项目
 
