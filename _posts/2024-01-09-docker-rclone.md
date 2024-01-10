@@ -95,7 +95,7 @@ image:
 
     > Docker Hub 项目地址：[rclone/rclone](https://hub.docker.com/r/rclone/rclone)
     >
-    > `mount aliyun:IIVA /data`：mount <云端名称 rclone 配置的 name >:<云端目录> /<容器目录>
+    > `mount aliyun:IIVA /data`：mount <rclone配置的云端名称>:<实际云端目录> /<容器目录>
     >
     > `- /root/.config/rclone`：rclone config 配置文件目录
     >
