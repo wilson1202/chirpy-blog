@@ -79,6 +79,7 @@ image:
     services:
       rclone:
         image: rclone/rclone
+        container_name: rclone
         command: mount aliyun:IIVA /data --allow-other --allow-non-empty --vfs-cache-mode writes
         restart: always
         volumes:
