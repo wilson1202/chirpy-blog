@@ -116,8 +116,8 @@ image:
     version: '3.3'
     services:
       rclonebrowser:
-        image: romancin/rclonebrowser:latest
         container_name: rclonebrowser
+        image: romancin/rclonebrowser:latest
         cap_add:
           - SYS_ADMIN
         devices:
