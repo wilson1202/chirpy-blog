@@ -70,30 +70,30 @@ image:
 
     > 修改文件使用 `nano` 或 `vim` 命令
     >
-    > `[anliyun]` 是 rclone 配置文件中的 `name` ，也是下步项目部署时的 `<云端名称>` ，实际两处保持一致即可
+    > [anliyun] 是 rclone 配置文件中的 `name` ，也是下步项目部署时的 `<云端名称>` ，实际两处保持一致即可
 
 6. 部署 rclone 项目
 
     ```yaml
-    version: '3.3'
-    services:
-      rclone:
-        container_name: rclone
-        image: rclone/rclone
-        command: mount aliyun:IIVA /data --allow-other --allow-non-empty --vfs-cache-mode writes
-        restart: always
-        volumes:
-          - /root/.config/rclone/:/config/rclone
-          - /volume2/video/aliyun:/data:shared
-          - /etc/passwd:/etc/passwd:ro
-          - /etc/group:/etc/group:ro
-        devices:
-          - /dev/fuse
-        cap_add:
-          - SYS_ADMIN
-        security_opt:
-          - apparmor:unconfined
-        user: "${UID}:${GID}"
+     version: '3.3'
+     services:
+       rclone:
+         container_name: rclone
+         image: rclone/rclone
+         command: mount aliyun:IIVA /data --allow-other --allow-non-empty --vfs-cache-mode writes
+         restart: always
+         volumes:
+           - /root/.config/rclone/:/config/rclone
+           - /volume2/video/aliyun:/data:shared
+           - /etc/passwd:/etc/passwd:ro
+           - /etc/group:/etc/group:ro
+         devices:
+           - /dev/fuse
+         cap_add:
+           - SYS_ADMIN
+         security_opt:
+           - apparmor:unconfined
+         user: "${UID}:${GID}"
     ```
 
     > Docker Hub 项目地址：[rclone/rclone](https://hub.docker.com/r/rclone/rclone)
@@ -113,30 +113,30 @@ image:
 1. 部署 rclonebrowser 项目
 
     ```yaml
-    version: '3.3'
-    services:
-      rclonebrowser:
-        container_name: rclonebrowser
-        image: romancin/rclonebrowser:latest
-        cap_add:
-          - SYS_ADMIN
-        devices:
-          - /dev/fuse
-        security_opt:
-          - apparmor=unconfined
-        ports:
-          - "5801:5800"
-          - "5901:5900"
-        volumes:
-          - /volume1/docker/rclonebrowser-aliyunpan/config:/config
-          - /volume2/video/aliyunpan:/media:shared
-        environment:
-          - GROUP_ID=0
-          - USER_ID=0
-          - TZ=Asia/Shanghai
-          - VNC_PASSWORD=123456
-          - ENABLE_CJK_FONT=1
-        restart: always
+     version: '3.3'
+     services:
+       rclonebrowser:
+         container_name: rclonebrowser
+         image: romancin/rclonebrowser:latest
+         cap_add:
+           - SYS_ADMIN
+         devices:
+           - /dev/fuse
+         security_opt:
+           - apparmor=unconfined
+         ports:
+           - "5801:5800"
+           - "5901:5900"
+         volumes:
+           - /volume1/docker/rclonebrowser-aliyunpan/config:/config
+           - /volume2/video/aliyunpan:/media:shared
+         environment:
+           - GROUP_ID=0
+           - USER_ID=0
+           - TZ=Asia/Shanghai
+           - VNC_PASSWORD=123456
+           - ENABLE_CJK_FONT=1
+         restart: always
     ```
 
     > Docker Hub 项目地址：[romancin/rclonebrowser](https://hub.docker.com/r/romancin/rclonebrowser)

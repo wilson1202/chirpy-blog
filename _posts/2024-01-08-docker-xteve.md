@@ -26,23 +26,23 @@ image:
 3. docker-compose.yml 部署
 
     ```yaml
-    version: '3.3'
-    services:
-      xteve:
-          container_name: xteve
-          image: alturismo/xteve:latest
-          network_mode: host
-          restart: unless-stopped
-          logging:
-              options:
-                  max-size: 10m
-                  max-file: 3
-          environment:
-              - TZ=Europe/Berlin
-          volumes:
-              - '/docker/xteve/:/root/.xteve:rw'
-              - '/docker/xteve/_config:/config:rw'
-              - '/tmp/xteve/:/tmp/xteve:rw'
+     version: '3.3'
+     services:
+       xteve:
+           container_name: xteve
+           image: alturismo/xteve:latest
+           network_mode: host
+           restart: unless-stopped
+           logging:
+               options:
+                   max-size: 10m
+                   max-file: 3
+           environment:
+               - TZ=Europe/Berlin
+           volumes:
+               - '/docker/xteve/:/root/.xteve:rw'
+               - '/docker/xteve/_config:/config:rw'
+               - '/tmp/xteve/:/tmp/xteve:rw'
     ```
 
 ## 添加 iptv 组播文件
