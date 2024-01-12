@@ -30,6 +30,7 @@ image:
     services:
       xteve:
           container_name: xteve
+          image: alturismo/xteve:latest
           network_mode: host
           restart: unless-stopped
           logging:
@@ -42,7 +43,6 @@ image:
               - '/docker/xteve/:/root/.xteve:rw'
               - '/docker/xteve/_config:/config:rw'
               - '/tmp/xteve/:/tmp/xteve:rw'
-          image: alturismo/xteve:latest
     ```
 
 ## 添加 iptv 组播文件
