@@ -90,9 +90,9 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: "wilson1202/wilson1202-comments" # <gh-username>/<repo>
-    repo_id: "R_kgDOK7ZUSQ"
+    repo_id: "R_kgDOK_au6g"
     category: "Announcements"
-    category_id: "DIC_kwDOK7ZUSc4Cb2wN"
+    category_id: "DIC_kwDOK_au6s4CcHAD"
     mapping: "pathname" # optional, default to 'pathname'
     input_position: "bottom" # optional, default to 'bottom'
     lang: "zh-CN" # optional, default to the value of `site.lang`
