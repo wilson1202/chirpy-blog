@@ -19,19 +19,19 @@ pin: false
 
 执行以下命令添加 upstream 仓库：
 
-```json
+```bash
 git remote add chirpy https://github.com/cotes2020/chirpy-starter.git
 ```
 
 验证远程仓库是否成功添加：
 
-```json
+```bash
 git remote -v
 ```
 
 输出应包含：
 
-```
+```tex
 chirpy  https://github.com/cotes2020/chirpy-starter.git (fetch)
 chirpy  https://github.com/cotes2020/chirpy-starter.git (push)
 ```
@@ -40,7 +40,7 @@ chirpy  https://github.com/cotes2020/chirpy-starter.git (push)
 
 如果您的工作流不需要使用子模块 `assets/lib` ，可以执行以下命令：
 
-```json
+```bash
 git config submodule.assets/lib.ignore all
 ```
 
@@ -52,13 +52,13 @@ git config submodule.assets/lib.ignore all
 
 1. 从 upstream 获取所有标签：
 
-   ```json
+   ```bash
    git fetch chirpy --tags
    ```
 
 2. M 将 upstream 的最新标签合并到您的本地分支。例如，要合并 `vX.Y.Z` 标签，执行：
 
-   ```json
+   ```bash
    git merge vX.Y.Z --squash --allow-unrelated-histories
    ```
 
@@ -66,19 +66,19 @@ git config submodule.assets/lib.ignore all
 
    - 如果您不打算使用该子模块，执行：
 
-     ```json
+     ```bash
      git restore --staged assets/lib
      ```
 
    - 如果您已经初始化并启用了子模块，请按照提示操作：
 
-     ```
+     ```bash
      hint:  - go to submodule (assets/lib), and either merge commit <submodule_commit_hash>
      ```
 
      记录子模块的 `submodule_commit_hash` ，并更新本地子模块：
 
-     ```json
+     ```bash
      git -C assets/lib merge <submodule_commit_hash>
      ```
 
@@ -86,13 +86,13 @@ git config submodule.assets/lib.ignore all
 
 5. 解决冲突后，创建一个新提交来保存此次升级：
 
-   ```json
+   ```bash
    git add . && git commit -m "chore: upgrade to X.Y.Z"
    ```
 
 6. 更新本地主题 gem：
 
-   ```json
+   ```bash
    bundle update
    ```
 
@@ -102,13 +102,13 @@ git config submodule.assets/lib.ignore all
 
 自 [`v5.6.0`](https://github.com/cotes2020/jekyll-theme-chirpy/releases/tag/v5.6.0)  版本起，JS 发布文件已被移除，自 [`v7.0.0`](https://github.com/cotes2020/jekyll-theme-chirpy/releases/tag/v7.0.0)  版本起，Bootstrap 的 CSS 变得更加精简。未来的升级中，请自行编译 CSS/JS 文件：
 
-```json
+```bash
 npm run build
 ```
 
 然后将它们添加到您的仓库中：
 
-```json
+```bash
 git add assets/js/dist _sass/vendors -f
 ```
 
@@ -120,6 +120,5 @@ git add assets/js/dist _sass/vendors -f
 
 ## 参考文档
 
-[VsCode使用Git上传代码至GitHub上_github vscode提交-CSDN博客](https://blog.csdn.net/2301_80864686/article/details/134207692) 
+[Upgrade Guide · cotes2020/jekyll-theme-chirpy Wiki](https://github.com/cotes2020/jekyll-theme-chirpy/wiki/Upgrade-Guide)
 
-[VSCode Github - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/464794757)
