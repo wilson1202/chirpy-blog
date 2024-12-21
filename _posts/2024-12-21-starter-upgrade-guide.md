@@ -31,7 +31,7 @@ git remote -v
 
 输出应包含：
 
-```tex
+```
 chirpy  https://github.com/cotes2020/chirpy-starter.git (fetch)
 chirpy  https://github.com/cotes2020/chirpy-starter.git (push)
 ```
