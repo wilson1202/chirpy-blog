@@ -40,33 +40,33 @@ image:
 
 2. 查看 rclone 版本，`rclone version`
 
-    ![image-20240109224303841](images/2024-01-09-docker-rclone/image-20240109224303841.png)
+    ![image-20240109224303841](/images/2024-01-09-docker-rclone/image-20240109224303841.png)
 
 3. 配置 config 文件，`rclone config`
 
-    ![Snipaste_2024-01-09_21-00-09](images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-00-09.png)
+    ![Snipaste_2024-01-09_21-00-09](/images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-00-09.png)
 
-    ![Snipaste_2024-01-09_21-01-24](images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-01-24.png)
+    ![Snipaste_2024-01-09_21-01-24](/images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-01-24.png)
 
-    ![Snipaste_2024-01-09_21-03-09](images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-03-09.png)
+    ![Snipaste_2024-01-09_21-03-09](/images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-03-09.png)
 
-    ![Snipaste_2024-01-09_21-06-13](images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-06-13.png)
+    ![Snipaste_2024-01-09_21-06-13](/images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-06-13.png)
 
     > 该版本总共10处需要手动输入，序号7漏掉，步骤未漏，代码行数可以衔接，密码确认之后的步骤，全部回车即可
 
-    ![Snipaste_2024-01-09_21-08-36](images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-08-36.png)
+    ![Snipaste_2024-01-09_21-08-36](/images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-08-36.png)
 
     > 完成配置，界面会展示部分配置信息
 
 4. 查看 config 文件路径，`rclone config file`
 
-    ![image-20240109230300683](images/2024-01-09-docker-rclone/image-20240109230300683.png)
+    ![image-20240109230300683](/images/2024-01-09-docker-rclone/image-20240109230300683.png)
 
     > 文件位置：`/root/.config/rclone`，保存好后面要用
 
 5. 查看 config 文件内容，`cat /root/.config/rclone/rclone.conf`
 
-    ![image-20240109230621143](images/2024-01-09-docker-rclone/image-20240109230621143.png)
+    ![image-20240109230621143](/images/2024-01-09-docker-rclone/image-20240109230621143.png)
 
     > 修改文件使用 `nano` 或 `vim` 命令
     >
@@ -106,7 +106,7 @@ image:
 
 7. 效果展示
 
-    ![image-20240109233950183](images/2024-01-09-docker-rclone/image-20240109233950183.png)
+    ![image-20240109233950183](/images/2024-01-09-docker-rclone/image-20240109233950183.png)
 
 ## 部署项目 - rclonebrowser
 
@@ -155,25 +155,25 @@ image:
 
 2. 浏览器登录
 
-    ![Snipaste_2024-01-10_00-01-27](images/2024-01-09-docker-rclone/Snipaste_2024-01-10_00-01-27.png)
+    ![Snipaste_2024-01-10_00-01-27](/images/2024-01-09-docker-rclone/Snipaste_2024-01-10_00-01-27.png)
 
 3. 设置参数
 
-    ![Snipaste_2024-01-09_21-22-32](images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-22-32.png)
+    ![Snipaste_2024-01-09_21-22-32](/images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-22-32.png)
     
-    ![Snipaste_2024-01-09_21-22-50](images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-22-50.png)
+    ![Snipaste_2024-01-09_21-22-50](/images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-22-50.png)
     
     > 具体配置步骤与 rclone 一致
 
 4. 挂载网盘
 
-    ![Snipaste_2024-01-09_21-23-42](images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-23-42.png)
+    ![Snipaste_2024-01-09_21-23-42](/images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-23-42.png)
 
-    ![Snipaste_2024-01-09_21-24-07](images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-24-07.png)
+    ![Snipaste_2024-01-09_21-24-07](/images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-24-07.png)
 
-    ![Snipaste_2024-01-09_21-25-51](images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-25-51.png)
+    ![Snipaste_2024-01-09_21-25-51](/images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-25-51.png)
 
-    ![Snipaste_2024-01-09_21-26-21](images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-26-21.png)
+    ![Snipaste_2024-01-09_21-26-21](/images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-26-21.png)
 
     > `/media`：容器目录，与 `- /volume2/video/aliyunpan:/media` 保持一致
     >
@@ -181,13 +181,13 @@ image:
 
 5. 成功挂载
 
-    ![Snipaste_2024-01-09_21-27-13](images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-27-13.png)
+    ![Snipaste_2024-01-09_21-27-13](/images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-27-13.png)
 
 6. 调整容器执行参数
 
-    ![Snipaste_2024-01-09_21-28-02](images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-28-02.png)
+    ![Snipaste_2024-01-09_21-28-02](/images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-28-02.png)
     
-    ![Snipaste_2024-01-09_21-47-51](images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-47-51.png)
+    ![Snipaste_2024-01-09_21-47-51](/images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-47-51.png)
     
     > 参数修改为：`--allow-other --allow-non-empty --vfs-cache-mode writes`
 
@@ -195,7 +195,7 @@ image:
 
 1. 创建自定义脚本
 
-    ![Snipaste_2024-01-09_21-10-23](images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-10-23.png)
+    ![Snipaste_2024-01-09_21-10-23](/images/2024-01-09-docker-rclone/Snipaste_2024-01-09_21-10-23.png)
     
     > 说明：是一个 `mount` 命令，它的目的是将 `/volume2` 目录标记为共享的文件系统，否则重启后会报错，挂载失效
     >

@@ -71,24 +71,24 @@ image:
 
 1. 打开克隆快捷键，`ctrl+shift+P`
 
-    ![Snipaste_2024-01-01_23-41-45](images/2024-01-01-vscode-connects-to-github-to-upload-notes/Snipaste_2024-01-01_23-41-45.png)
+    ![Snipaste_2024-01-01_23-41-45](/images/2024-01-01-vscode-connects-to-github-to-upload-notes/Snipaste_2024-01-01_23-41-45.png)
 
 2. 根据提示选择仓库
 
-    ![Snipaste_2024-01-01_23-40-33](images/2024-01-01-vscode-connects-to-github-to-upload-notes/Snipaste_2024-01-01_23-40-33.png)
+    ![Snipaste_2024-01-01_23-40-33](/images/2024-01-01-vscode-connects-to-github-to-upload-notes/Snipaste_2024-01-01_23-40-33.png)
 
 3. 选择本地存储位置
 
-    ![Snipaste_2024-01-01_23-49-10](images/2024-01-01-vscode-connects-to-github-to-upload-notes/Snipaste_2024-01-01_23-49-10.png)
+    ![Snipaste_2024-01-01_23-49-10](/images/2024-01-01-vscode-connects-to-github-to-upload-notes/Snipaste_2024-01-01_23-49-10.png)
 
 ## 提交代码
 
 1. 交互界面提交
-    ![image-20240101235709086](images/2024-01-01-vscode-connects-to-github-to-upload-notes/image-20240101235709086.png)
+    ![image-20240101235709086](/images/2024-01-01-vscode-connects-to-github-to-upload-notes/image-20240101235709086.png)
 
 2. 终端提交，与在 Windows 终端提几乎一致
 
-    ![image-20240102000259439](images/2024-01-01-vscode-connects-to-github-to-upload-notes/image-20240102000259439.png)
+    ![image-20240102000259439](/images/2024-01-01-vscode-connects-to-github-to-upload-notes/image-20240102000259439.png)
 
     > 首次在交互界面提交可能会提示权限问题，类似于以下
     >

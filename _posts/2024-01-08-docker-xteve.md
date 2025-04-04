@@ -49,7 +49,7 @@ image:
 
 1. 添加直播/组播文件 `CMCC-IPTV.m3u`
 
-    ![image-20240108170217153](images/2024-01-08-docker-xteve/image-20240108170217153.png)
+    ![image-20240108170217153](/images/2024-01-08-docker-xteve/image-20240108170217153.png)
 
     > 路径：`/docker/xteve/_config/CMCC-IPTV.m3u`
 
@@ -61,7 +61,7 @@ image:
 
 2. 设置播放端数量，如果有公网访问需求，需要考虑实际上传带宽
 
-    ![image-2965397799](images/2024-01-08-docker-xteve/2965397799.png)
+    ![image-2965397799](/images/2024-01-08-docker-xteve/2965397799.png)
 
 3. 添加直播/组播文件 `CMCC-IPTV.m3u`
 
@@ -73,7 +73,7 @@ image:
 
 5. 完成设置
 
-    ![image-20240108172802798](images/2024-01-08-docker-xteve/image-20240108172802798.png)
+    ![image-20240108172802798](/images/2024-01-08-docker-xteve/image-20240108172802798.png)
 
 ## 设置 ffmpeg 解码
 
@@ -106,11 +106,11 @@ image:
     ffmpeg -version
     ```
 
-    ![image-20240108175020146](images/2024-01-08-docker-xteve/image-20240108175020146.png)
+    ![image-20240108175020146](/images/2024-01-08-docker-xteve/image-20240108175020146.png)
 
 3. 配置 xTeVe
 
-    ![image-20240108175939666](images/2024-01-08-docker-xteve/image-20240108175939666.png)
+    ![image-20240108175939666](/images/2024-01-08-docker-xteve/image-20240108175939666.png)
 
     > 需要修改三处配置（画面播放正常，FFmpeg Options 参数可不调整）
     >
@@ -123,33 +123,33 @@ image:
 
 1. 添加设备
 
-    ![image-20240108181053443](images/2024-01-08-docker-xteve/image-20240108181053443.png)
+    ![image-20240108181053443](/images/2024-01-08-docker-xteve/image-20240108181053443.png)
 
 2. 调谐器设置-国家/地区
 
-    ![image-20240108181210196](images/2024-01-08-docker-xteve/image-20240108181210196.png)
+    ![image-20240108181210196](/images/2024-01-08-docker-xteve/image-20240108181210196.png)
 
 3. 调谐器设置-XMLTV指南
 
-    ![image-20240108181442794](images/2024-01-08-docker-xteve/image-20240108181442794.png)
+    ![image-20240108181442794](/images/2024-01-08-docker-xteve/image-20240108181442794.png)
 
     > XMLTV指南：http://10.0.0.3:34400/xmltv/xteve.xml   
 
 4. 自动配置频道
 
-    ![image-20240108181705118](images/2024-01-08-docker-xteve/image-20240108181705118.png)
+    ![image-20240108181705118](/images/2024-01-08-docker-xteve/image-20240108181705118.png)
 
 5. 完成设置
 
-    ![image-20240108181854558](images/2024-01-08-docker-xteve/image-20240108181854558.png)
+    ![image-20240108181854558](/images/2024-01-08-docker-xteve/image-20240108181854558.png)
 
 6. 查看指南
 
-    ![image-20240108182057253](images/2024-01-08-docker-xteve/image-20240108182057253.png)
+    ![image-20240108182057253](/images/2024-01-08-docker-xteve/image-20240108182057253.png)
 
 7. 播放测试
 
-    ![image-20240108182219464](images/2024-01-08-docker-xteve/image-20240108182219464.png)
+    ![image-20240108182219464](/images/2024-01-08-docker-xteve/image-20240108182219464.png)
 
 ## 参考文档
 

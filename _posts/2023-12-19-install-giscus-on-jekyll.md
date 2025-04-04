@@ -19,15 +19,15 @@ image:
 1. 安装 giscus 
 
     [GitHub Apps - giscus](https://github.com/apps/giscus)
-    ![image-20231219160516842](images/2023-12-19-install-giscus-on-jekyll/202312191605888.png)
+    ![image-20231219160516842](/images/2023-12-19-install-giscus-on-jekyll/202312191605888.png)
 
 2. 选择仓库
 
-    ![image-20231219173549559](images/2023-12-19-install-giscus-on-jekyll/202312191735600.png)
+    ![image-20231219173549559](/images/2023-12-19-install-giscus-on-jekyll/202312191735600.png)
 
 3. 开启 Discussion
 
-    ![image-20231219161153383](images/2023-12-19-install-giscus-on-jekyll/202312191611411.png)
+    ![image-20231219161153383](/images/2023-12-19-install-giscus-on-jekyll/202312191611411.png)
 
     > 路径： `Setings` - `General` - `Features` - `Discussions `
 
@@ -86,7 +86,7 @@ image:
 
 7. 效果展示
 
-    ![image-20231219163018886](images/2023-12-19-install-giscus-on-jekyll/202312191630929.png)
+    ![image-20231219163018886](/images/2023-12-19-install-giscus-on-jekyll/202312191630929.png)
 
 ## 参考文档
 

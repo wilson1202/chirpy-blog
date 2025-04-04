@@ -88,7 +88,7 @@ image:
 
 3. GitHub Pages设置
 
-    ![202312191219877](images/2023-12-14-install-jekyll-on-wsl2-ubuntu/202312191219877.png)
+    ![202312191219877](/images/2023-12-14-install-jekyll-on-wsl2-ubuntu/202312191219877.png)
 
     > 设置路径：`Setings`-`Pages`-`Build and deployment`-`Source`-`GitHub Actions`
     >
