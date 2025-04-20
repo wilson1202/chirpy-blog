@@ -49,7 +49,7 @@ sudo bash -c 'bash <(curl -s https://build-scripts.immortalwrt.org/init_build_en
     ```bash
     git clone -b v24.10.0 --single-branch --depth=1 https://github.com/openwrt/openwrt.git
     ```
-    > `-b` 指定分支/标签、 `--single-branch` 仅下载单个分支/标签、 `--depth=1` 只下载最新的一次提交{: .prompt-info }
+    > `-b` 指定分支/标签、 `--single-branch` 仅下载单个分支/标签、 `--depth=1` 只下载最新的一次提交 {: .prompt-info }
 
 - 进入目录
 
@@ -101,13 +101,13 @@ sed -i 's/192.168.1.1/10.0.0.2/g' package/base-files/files/bin/config_generate
     ```
 
 	
-	- 添加 [`luci-theme-argon`](https://github.com/jerrykuku/luci-theme-argon)
+  - 添加 [`luci-theme-argon`](https://github.com/jerrykuku/luci-theme-argon)
 
     ```bash
     git clone https://github.com/jerrykuku/luci-theme-argon.git feeds/luci/themes/luci-theme-argon
     ```
 
-	- 升级 [`openwrt-smartdns`](https://github.com/pymumu/openwrt-smartdns) 和 [`luci-app-smartdns`](https://github.com/pymumu/luci-app-smartdns)
+  - 升级 [`openwrt-smartdns`](https://github.com/pymumu/openwrt-smartdns) 和 [`luci-app-smartdns`](https://github.com/pymumu/luci-app-smartdns)
 
     ```bash
     rm -rf feeds/packages/net/smartdns
@@ -176,7 +176,7 @@ make download -j8 V=s
 make V=s -j$(nproc)
 ```
 
-> 如果编译过程中报错了，可以使用单线程模式 `make V=s -j1` ，确认出错的地方，然后排查（注：有时候单线程就不报错了），使用 `-j` 参数可以指定编译时使用的线程数{: .prompt-info }
+> 如果编译过程中报错了，可以使用单线程模式 `make V=s -j1` ，确认出错的地方，然后排查（注：有时候单线程就不报错了），使用 `-j` 参数可以指定编译时使用的线程数 {: .prompt-info }
 
 ### 二次编译
 
