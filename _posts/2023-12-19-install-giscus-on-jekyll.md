@@ -2,7 +2,7 @@
 title: Jekyll添加giscus评论系统
 author: yongren
 date: 2023-12-19 15:46:10 +0800
-categories: [七零八落的折腾, Jekyll]
+categories: [文档, Jekyll]
 tags: [jekyll, giscus, chirpy]
 pin: false
 image:

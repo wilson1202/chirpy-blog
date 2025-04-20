@@ -2,7 +2,7 @@
 title: Starter升级指南
 author: yongren
 date: 2024-12-21 18:03:06 +0800
-categories: [七零八落的折腾, Jekyll]
+categories: [文档, Jekyll]
 tags: [jekyll, chirpy, starter]
 pin: false
 ---

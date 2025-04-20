@@ -2,7 +2,7 @@
 title: Docker部署Rclone
 author: yongren
 date: 2024-01-09 21:55:19 +0800
-categories: [七零八落的折腾, Docker]
+categories: [软件, Docker]
 tags: [docker, rclone, rclonebrowser]
 pin: false
 image:

@@ -2,7 +2,7 @@
 title: VsCode连接Github上传笔记
 author: yongren
 date: 2024-01-02 00:12:06 +0800
-categories: [七零八落的折腾, Jekyll]
+categories: [文档, Jekyll]
 tags: [jekyll, chirpy, vscode, github]
 pin: false
 image:
