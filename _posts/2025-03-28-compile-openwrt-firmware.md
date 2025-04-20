@@ -225,5 +225,3 @@ make defconfig
 ## 参考
 
 [使用 OpenWrt 23.05.5 官网源码编译固件](https://maxqiu.com/article/detail/153)
-
-[【openwrt】openwrt内核编译libustream-openssl出错 解决-谷动谷力](http://bbs.sunsili.com/thread-269580-1-1.html)
