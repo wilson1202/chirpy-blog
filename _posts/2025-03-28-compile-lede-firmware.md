@@ -11,8 +11,7 @@ pin: false
 
 > [Lean的Openwrt源码仓库](https://github.com/coolsnowwolf/lede)
 
-
-> **编译注意事项**
+> 编译注意事项
 > 1. 不要用 `root` 用户进行编译！！！
 > 2. 国内用户编译前最好准备好梯子
 > 3. 默认登陆IP `192.168.1.1` 密码 `password`
