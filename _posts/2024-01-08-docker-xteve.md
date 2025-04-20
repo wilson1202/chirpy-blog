@@ -1,5 +1,5 @@
 ---
-title: Docker部署xTeVe
+title: Docker 部署 xTeVe
 author: yongren
 date: 2024-01-08 15:13:18 +0800
 categories: [七零八落的折腾, Docker]
