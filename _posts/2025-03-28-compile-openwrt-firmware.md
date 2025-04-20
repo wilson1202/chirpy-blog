@@ -3,7 +3,7 @@ title: OpenWrt 官方源码编译固件
 author: yongren
 date: 2025-03-28 13:58:07 +0800
 categories: [系统, OpenWrt]
-tags: [OpenWrt, 编译, 路由器]
+tags: [openwrt, 编译, 路由器]
 pin: false
 ---
 
