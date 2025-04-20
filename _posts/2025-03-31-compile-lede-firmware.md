@@ -1,7 +1,7 @@
 ---
 title: LEDE 源码编译固件
 author: yongren
-date: 2025-03-28 15:58:07 +0800
+date: 2025-03-31 15:28:27 +0800
 categories: [系统, OpenWrt]
 tags: [openwrt, lede, 编译, 路由器]
 pin: false
