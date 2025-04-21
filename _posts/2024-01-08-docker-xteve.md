@@ -98,7 +98,7 @@ image:
     >  
     >  #或者使用指令
     >  sudo apt install ffmpeg --fix-missing
-    >  ```
+    >  ``` 
     {: .prompt-info }
 
 2. 验证安装结果
