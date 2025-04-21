@@ -5,8 +5,6 @@ date: 2025-04-11 21:55:19 +0800
 categories: [软件, Docker]
 tags: [docker, zfile, 网盘]
 pin: false
-image:
-  path: images/2025-04-11-docker-zfile/ZFile-icon.png
 ---
 
 ## 简介
