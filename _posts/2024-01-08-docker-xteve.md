@@ -97,7 +97,8 @@ image:
     >  sudo apt install ffmpeg#  
     >  
     >  #或者使用指令
-    >  sudo apt install ffmpeg --fix-missing  
+    >  sudo apt install ffmpeg --fix-missing
+    >  ``` 
     {: .prompt-info }
 
 2. 验证安装结果
@@ -112,7 +113,7 @@ image:
 
     ![image-20240108175939666](/images/2024-01-08-docker-xteve/image-20240108175939666.png)
 
-    > *需要修改三处配置（画面播放正常，FFmpeg Options 参数可不调整）*
+    > **需要修改三处配置（画面播放正常，FFmpeg Options 参数可不调整）**
     >
     > - Stream Buffer：`FFmpeg: (FFmpeg connects to the streaming server)`
     > - FFmpeg Binary Path：`/usr/bin/ffmpeg`
