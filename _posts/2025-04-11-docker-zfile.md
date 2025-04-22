@@ -65,7 +65,6 @@ services:
 | 概述              | 空                                                           |            |
 | 额外要求          | 空                                                           |            |
 | 存储库            | `zhaojun1998/zfile`                                          |            |
-| Registry URL      | [https://registry.hub.docker.com/r/zhaojun1998/zfile](https://registry.hub.docker.com/r/zhaojun1998/zfile) |            |
 | 图标链接          | `/mnt/user/Pictures/docker-logos/ZFile-icon.png`             |            |
 | WebUI             | 空                                                           |            |
 | 额外参数          | 空                                                           |            |
@@ -75,7 +74,7 @@ services:
 | Use Tailscale     | 关                                                           |            |
 | 控制台 shell 命令 | `Shell`                                                      |            |
 | 特权              | 关                                                           |            |
-| 路径              | 容器路径：`/root/.zfile-v4/db`；主机路径：`/mnt/user/appdata/ZFile/db` | 数据库路径 |
-| 路径              | 容器路径：`/root/.zfile-v4/logs`；主机路径：`/mnt/user/appdata/ZFile/logs` | 日志路径   |
-| 路径              | 容器路径：`/data/file`；主机路径：`/mnt/user/Work/`          | 存储路径   |
-| 端口              | 容器端口：`8080`；主机端口：`8080`；连接类型：`TCP`          | 映射端口   |
+| 路径              | 容器路径：`/root/.zfile-v4/db`<br />主机路径：`/mnt/user/appdata/ZFile/db` | 数据库路径 |
+| 路径              | 容器路径：`/root/.zfile-v4/logs`<br />主机路径：`/mnt/user/appdata/ZFile/logs` | 日志路径   |
+| 路径              | 容器路径：`/data/file`<br />主机路径：`/mnt/user/Work/`      | 存储路径   |
+| 端口              | 容器端口：`8080`<br />主机端口：`8080`<br />连接类型：`TCP`  | 映射端口   |
