@@ -40,7 +40,13 @@ image:
    构建设置：
 
    - 架构预设：勾选`Jekyll`，构建命令和输出目录自动生成
+
    - 环境变量（高级）：添加`RUBY_VERSION`变量，值根据实际情况
+
+     > 变量名称：BUNDLE_WITHOUT
+     >
+     > 值：""
+
    - 其他不动
 
    ![image-20231219130509739](/images/2023-12-19-install-jekyll-on-cloudflare-pages/202312191305791.png)
