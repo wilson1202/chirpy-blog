@@ -95,7 +95,7 @@ theme_mode: # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn: "https://images.161587.xyz" # "https://tc0001.oss-cn-nanjing.aliyuncs.com","https://images.161587.xyz",https://cdn.jsdelivr.net/gh/wilson1202/wilson1202-images/"，"https://cdn.jsdelivr.net/gh/wilson1202/wilson1202.github.io"
+cdn: "" # "https://tc0001.oss-cn-nanjing.aliyuncs.com","https://images.161587.xyz",https://cdn.jsdelivr.net/gh/wilson1202/wilson1202-images/"，"https://cdn.jsdelivr.net/gh/wilson1202/wilson1202.github.io"
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "/images/avatar.png"
