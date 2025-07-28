@@ -6,14 +6,22 @@ theme: jekyll-theme-chirpy
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
+<<<<<<< HEAD
 lang: zh-CN
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Asia/Shanghai
+=======
+lang: en
+
+# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
+timezone:
+>>>>>>> v7.3.1
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
+<<<<<<< HEAD
 title: 青梅煮酒 # the main title
 
 tagline: 人生不过诗酒茶，读书、行路、学徒、做事、成事、成活。 # it will display as the subtitle
@@ -24,6 +32,18 @@ description: >- # used by seo meta and the atom feed
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://161587.xyz"
+=======
+title: Chirpy # the main title
+
+tagline: A text-focused Jekyll theme # it will display as the subtitle
+
+description: >- # used by seo meta and the atom feed
+  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+
+# Fill in the protocol & hostname for your site.
+# E.g. 'https://username.github.io', note that it does not end with a '/'.
+url: ""
+>>>>>>> v7.3.1
 
 github:
   username: github_username # change to your GitHub username
@@ -34,8 +54,13 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
+<<<<<<< HEAD
   name: 庸人
   email: ibox_wilson@outlook.com # change to your email address
+=======
+  name: your_full_name
+  email: example@domain.com # change to your email address
+>>>>>>> v7.3.1
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your Twitter homepage
@@ -46,7 +71,11 @@ social:
 
 # Site Verification Settings
 webmaster_verifications:
+<<<<<<< HEAD
   google: Ff6gnnwZmpJB8GEW-7HvZGSSZb_SlDj8QryFvsay7Bo # fill in your Google verification code
+=======
+  google: # fill in your Google verification code
+>>>>>>> v7.3.1
   bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
