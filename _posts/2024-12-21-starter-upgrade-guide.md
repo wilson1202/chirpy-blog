@@ -87,7 +87,7 @@ git config submodule.assets/lib.ignore all
 5. 解决冲突后，创建一个新提交来保存此次升级：
 
    ```bash
-   git add . && git commit -m "chore: upgrade to X.Y.Z"
+   git add . && git commit -m "chore: upgrade to X.Y.Z" && git push
    ```
 
 6. 更新本地主题 gem：
